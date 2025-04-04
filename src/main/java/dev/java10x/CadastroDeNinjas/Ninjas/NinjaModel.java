@@ -20,6 +20,8 @@ public class NinjaModel {
     private String nome;
     @Column(unique = true)
     private String email;
+    @Column(name = "img_Url")
+    private String imgUrl;
     private int idade;
 
     @ManyToOne
